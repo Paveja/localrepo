@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "start": "npm run dev",
+  "port": 4173,
+  "install": [
+    {
+      "name": "npm-dependencies",
+      "check": "test -d node_modules && test -f package-lock.json",
+      "run": "npm ci",
+      "inputs": ["package.json", "package-lock.json"]
+    }
+  ]
+}
