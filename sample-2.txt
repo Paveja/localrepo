@@ -1,0 +1,3 @@
+Sample File Two
+
+This is sample text for the second file. It can be edited or expanded as needed.
